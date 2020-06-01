@@ -7,7 +7,10 @@ return [
     //not used in app
     'appUrl' => '',
 
-    'indexFileUrl' => 'Prj0002-Php%20Custom%20MVC/public.index',
+    //formats :
+    //          '/Project1/'
+    //          '/'
+    'appBaseFolder' => '/Prj0002-Php%20Custom%20MVC/',
 
 
 ];

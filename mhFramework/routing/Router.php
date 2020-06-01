@@ -12,7 +12,8 @@ class Router {
         // echo $url;
         // echo "<br>";
 
-        if ($url == "/Prj0002-Php%20Custom%20MVC/") {
+        global $config;
+        if ($url == $config['app']['appBaseFolder']) {
             $request->controller = "index";
             $request->action = "index";
             $request->params = [];
