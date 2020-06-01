@@ -2,7 +2,7 @@
 
 Simple custom framework to learn MVC.
 
-#Project Structure
+# Project Structure
   - app (folder) : containers models, controllers and views folder in which user can create custom models/controllers/views
   - config (folder) : used to set database configuration
   - mhFramework (folder) : custom framework folder , contain different framework classes
@@ -20,7 +20,13 @@ Simple custom framework to learn MVC.
     $indexFileUrl = "public/index.php";
    `
    
-2 Edit database.php inside config folder to set your database configuration
+2. Edit database.php inside config folder to set your database configuration
+
+
+3. Edit app.php inside config folder and appBaseFolder to your project root folder.
+   If your project is inside a folder set '/folderName/'
+   Else set it '/' if it is not inside a folder
+
 
 
 
