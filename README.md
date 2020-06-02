@@ -28,12 +28,12 @@ Simple custom framework to learn MVC.
    Else set it '/' if it is not inside a folder
 
 4. When creating controller , keep the controller and view name as
-        Controller : somethingController
-        View:   something
+         `Controller : somethingController
+          View:   something `
 
     If you use plural 
-        Controller: somethingsController
-        View:   somethings
+        ` Controller: somethingsController
+        View:   somethings `
 
 
 
